@@ -1283,7 +1283,7 @@ ul.twitter_footer{
 /*--fooer-bottom--*/
 .footer-bottom{
 	background:#72d0f4;
-	padding:3% 0;
+	padding:10% 0;
 }
 h4.m_7 {
 	color:#fff;
@@ -1300,9 +1300,9 @@ h4.m_7 {
 	float:left;
 	margin-top: 5px;
 }
-.copy p{
+.copy p, .right_container p{
 	color:#fff;
-	font-size:0.8125em;
+	font-size:0.9em;
 }
 .copy p a{
 	color:#DBF5FF;
@@ -4293,4 +4293,10 @@ span.m_26 {
   position: absolute;
   top: 36px;
   width: 1px;
+}
+.right_container{
+  float: right; 
+}
+.right_container p a span:hover {
+	color: #FFF;
 }
