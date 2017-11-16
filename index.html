@@ -69,19 +69,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 
 					 <ul id="countdown">
 						 <li>					
-							 <span class="days time-font">00</span>
+							 <span id="days" class="days time-font">00</span>
 							 <p>Өдөр </p>
 						 </li>
 						 <li>
-							 <span class="hours time-font">00</span>
+							 <span id="hours" class="hours time-font">00</span>
 							 <p class="">Цаг </p>
 						 </li>
 						 <li>
-							 <span class="minutes time-font">00</span>
+							 <span id="minutes" class="minutes time-font">00</span>
 							 <p class="">Минут</p>
 						 </li>
 						 <li>
-							 <span class="seconds time-font">00</span>
+							 <span id="seconds" class="seconds time-font">00</span>
 							 <p class="">Секунд</p>
 						 </li>				
 					 </ul>
@@ -105,19 +105,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 						    
 						    // Output the result in an element with id="demo"
-						    document.getElementById("new-countdown").innerHTML = days + "d " + hours + "h "
-						    + minutes + "m " + seconds + "s ";
+						    document.getElementById("days").innerHTML = days ;
+						    document.getElementById("hours").innerHTML = hours;
+						    document.getElementById("minutes").innerHTML = minutes ;
+						    document.getElementById("seconds").innerHTML = seconds ;
 						    
 						    // If the count down is over, write some text 
 						    if (distance < 0) {
 						        clearInterval(x);
-						        document.getElementById("new-countdown").innerHTML = "EXPIRED";
+						        document.getElementById("days").innerHTML = "EXPIRED";
+						        document.getElementById("hours").innerHTML = "EXPIRED";
+						        document.getElementById("minutes").innerHTML = "EXPIRED";
+						        document.getElementById("seconds").innerHTML = "EXPIRED";
 						    }
 						}, 1000);
 					</script>
- 				<div id="new-countdown">
- 					
- 				</div>>
 			 <!-- Time minute seconds end -->
 			 <div class="banner_btn">
 				 <a href="#">Read More</a>
@@ -545,10 +547,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	    <div class="map">
 	    	
-			<iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2&amp;output=embed"> </iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2" style="color:#666;font-size:12px;text-align:left"> </a></small> -->
+			<iframe width="100%" height="550px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="maptest.html"> </iframe>
 			<div class="opening_hours">
 			 <ul class="times">
-			 	<h3>Opening <span class="opening">Hours</span></h3>
+			 	<h3><b>Хаяг, байршил</b></h3>
 			 	<li><i class="calender"> </i><span class="week">Monday</span><div class="hours">h.6:00-h.24:00</div>  <div class="clear"></div></li>
 			 	<li><i class="calender"> </i><span class="week">Tuesday</span><div class="hours">h.6:00-h.24:00</div>  <div class="clear"></div></li>
 			 	<li><i class="calender"> </i><span class="week">Wednesday</span><div class="hours">h.6:00-h.24:00</div>  <div class="clear"></div></li>

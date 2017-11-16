@@ -1192,9 +1192,9 @@ ul.partner li{
 }
 .opening_hours{
 	position: absolute;
-	background:rgba(46, 176, 226, 0.57);
-	top: 15.5%;
-	left: 63%;
+	background:linear-gradient(to right, #2681cf, #26d0ce);
+	top: 18.5%;
+	right: 67%;
 	padding: 1%;
 	width: 22%;
 }
@@ -4294,6 +4294,7 @@ span.m_26 {
   top: 36px;
   width: 1px;
 }
+
 .right_container{
   float: right; 
 }
