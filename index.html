@@ -6,73 +6,57 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>Free Gym Website Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />-->
-<script src="js/jquery.min.js"></script>
-<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-<!-- grid-slider -->
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<!-- //grid-slider -->
-</head>
+	<head>
+		<title>Free Gym Website Template | Home :: w3layouts</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />-->
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+					});
+				});
+			</script>
+		<!-- grid-slider -->
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<!-- //grid-slider -->
+	</head>
 <body>
  <!-- start header_top -->
 	<!-- end header_top -->
 	<!-- start header_bottom -->
-	  <div class="header-bottom">
-		 <div class="container">
-			<div class="header-bottom_left">
-				<i class="phone"> </i><span>1-200-346-2986</span>
-			</div>
-			<div class="social">	
-			   <ul>	
-				  <li class="facebook"><a href="#"><span> </span></a></li>
-				  <li class="twitter"><a href="#"><span> </span></a></li>
-				  <li class="pinterest"><a href="#"><span> </span></a></li>	
-				  <li class="google"><a href="#"><span> </span></a></li>
-				  <li class="tumblr"><a href="#"><span> </span></a></li>
-				  <li class="instagram"><a href="#"><span> </span></a></li>	
-				  <li class="rss"><a href="#"><span> </span></a></li>							
-			   </ul>
-		   </div>
-		   <div class="clear"></div>
-		</div>
-	  </div>
+	  
 	<!-- end header_bottom -->
 	<!-- start menu -->
-    <div class="menu" id="menu">
+    <div class="menu" id="menu" style="position: fixed;">
 	  <div class="container">
-		 <div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt=""/></a>
-		 </div>
-		 <div class="h_menu4"><!-- start h_menu4 -->
-		   <a class="toggleMenu" href="#">Menu</a>
-			 <ul class="nav">
-			   <li class="active"><a href="index.html">Эхлэл</a></li>
-			   <li><a href="about.html">Илтгэл</a></li>
-			   <li><a href="trainers.html">Хөтөлбөр</a></li>
-			   <li><a href="classes.html">Хэлэлцүүлэг</a></li>
-			   <li><a href="blog.html">Оролцох</a></li>
-			 </ul>
-			  <script type="text/javascript" src="js/nav.js"></script>
-		  </div><!-- end h_menu4 -->
-		 <div class="clear"></div>
+		 <div class="row">
+			 <div class="logo col">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			 </div>
+			 <div class="h_menu4 col"><!-- start h_menu4 -->
+			   <a class="toggleMenu" href="#">Menu</a>
+				 <ul class="nav d-flex align-items-center">
+				   <li class="active"><a href="index.html">Эхлэл</a></li>
+				   <li><a href="#iltgel" class="scroll">Илтгэл</a></li>
+				   <li><a href="trainers.html">Хөтөлбөр</a></li>
+				   <li><a href="classes.html">Хэлэлцүүлэг</a></li>
+				   <li><a href="blog.html">Оролцох</a></li>
+				 </ul>
+				  <script type="text/javascript" src="js/nav.js"></script>
+			  </div><!-- end h_menu4 -->
+			 <div class="clear"></div>
+		</div>
 	  </div>
 	</div>
 	<div class="header">
@@ -81,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 <!-- <h1>Perfect Fitness</h1>
 			 <h2>Best Choice For your site</h2>
 			 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p> -->
-			 <!-- Time minute seconds begin -->
+			 <!-- Time minute seconds begin dsadasds-->
 				 
 					 <ul id="countdown">
 						 <li>					
@@ -101,14 +85,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							 <p class="">Секунд</p>
 						 </li>				
 					 </ul>
- 
+					 <script>
+						// Set the date we're counting down to
+						var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+
+						// Update the count down every 1 second
+						var x = setInterval(function() {
+
+						    // Get todays date and time
+						    var now = new Date().getTime();
+						    
+						    // Find the distance between now an the count down date
+						    var distance = countDownDate - now;
+						    
+						    // Time calculations for days, hours, minutes and seconds
+						    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+						    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+						    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+						    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+						    
+						    // Output the result in an element with id="demo"
+						    document.getElementById("new-countdown").innerHTML = days + "d " + hours + "h "
+						    + minutes + "m " + seconds + "s ";
+						    
+						    // If the count down is over, write some text 
+						    if (distance < 0) {
+						        clearInterval(x);
+						        document.getElementById("new-countdown").innerHTML = "EXPIRED";
+						    }
+						}, 1000);
+					</script>
+ 				<div id="new-countdown">
+ 					
+ 				</div>>
 			 <!-- Time minute seconds end -->
 			 <div class="banner_btn">
 				 <a href="#">Read More</a>
 			 </div>
 		   </div>
 		   <div class="header-arrow">
-			  <a href="#menu" class="class scroll"><span> </span </a>
+			  <a href="#menu" class="class scroll" ><span> </span  </a>
 		   </div>
 		 </div>
 	   </div>
@@ -128,7 +144,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
 		 </div>
 		<!-- end content-top -->
-		<div class="container">
+		<div class="container" id="iltgel">
 		    <div class="row content-middle">
 		      <!-- start content-middle -->
 	 	    	<div class="col-md-4"><a href="pricing.html">
@@ -528,7 +544,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	     </div>
 		</div>
 	    <div class="map">
-			<iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2&amp;output=embed"> </iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2" style="color:#666;font-size:12px;text-align:left"> </a></small>
+	    	
+			<iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2&amp;output=embed"> </iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2" style="color:#666;font-size:12px;text-align:left"> </a></small> -->
 			<div class="opening_hours">
 			 <ul class="times">
 			 	<h3>Opening <span class="opening">Hours</span></h3>
