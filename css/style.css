@@ -117,7 +117,7 @@ i.phone {
 	font-size: 0.85em;
 }
 .social{
-	float: right;
+	float: left;
 }
 .social ul{
 	margin:0;
@@ -657,31 +657,39 @@ ul.cardio{
 	list-style: none;
 	padding:0;
 }
+ul.cardio1{
+	float: left;
+	margin:8px 0 0 0;
+	list-style: none;
+	padding:0;
+}
 i.clock{
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	background: url(../images/img-sprite.png) no-repeat -15px -78px;
 	float: left;
 }
 ul.cardio span{
 	color:#fff;
-	font-size:0.85em;
-	text-transform:uppercase;
-	vertical-align:top;
+	font-size:0.91em;
 	margin-left: 5px;
+}
+ul.cardio1 span{
+	color:#fff;
+	font-size:0.91em;
+	margin-left:70px;
 }
 ul.tooltip{
 	float:right;
 }
 .cardio_list{
-	width: 46.5%;
+	width: 100%;
 	float: left;
-	border-right: 1px solid #B9DEEC;
-	padding: 0 3% 0 0;
-	margin-right: 3%;
+	padding: 0 2% 0 0;
+	margin-right: 2%;
 }
 .cardio_list1{
-	width: 46.5%;
+	width: 100%;
 	float: left;
 }
 .cardio_sublist{
