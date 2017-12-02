@@ -19,7 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script src="js/jquery.min.js"></script>
 		<script type="text/javascript">
 				jQuery(document).ready(function($) {
-					$(".scroll").click(function(event){		
+					$(".scroll").click(function(event){
 						event.preventDefault();
 						$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 					});
@@ -35,18 +35,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  <!-- start header_top -->
 	<!-- end header_top -->
 	<!-- start header_bottom -->
-	  
 	<!-- end header_bottom -->
 	<!-- start menu -->
     <div class="menu" id="menu" style="position: fixed;">
 	  <div class="container">
-		 <div class="row">
-			 <div class="logo col">
+		 <div class="row d-flex align-items-center">
+			 <div class="logo col" style="padding-top:8px;">
 				<a href="index.html"><img src="images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="h_menu4 col"><!-- start h_menu4 -->
 			   <a class="toggleMenu" href="#">Menu</a>
-				 <ul class="nav d-flex align-items-center">
+				 <ul class="nav" style="margin-bottom: 16px; margin-top: 16px;">
 				   <li><a href="index.html">Эхлэл</a></li>
 				   <li><a href="#iltgel" class="scroll">Илтгэл</a></li>
 				   <li><a href="#program">Хөтөлбөр</a></li>
@@ -67,9 +66,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <h2>Best Choice For your site</h2>
 				 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p> -->
 				 <!-- Time minute seconds begin dsadasds-->
-					 
 						 <ul id="countdown">
-							 <li>					
+							 <li>
 								 <span id="days" class="days time-font">00</span>
 								 <p>Өдөр </p>
 							 </li>
@@ -84,7 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							 <li>
 								 <span id="seconds" class="seconds time-font">00</span>
 								 <p>Секунд</p>
-							 </li>				
+							 </li>
 						 </ul>
 						 <script>
 							// Set the date we're counting down to
@@ -95,22 +93,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 							    // Get todays date and time
 							    var now = new Date().getTime();
-							    
 							    // Find the distance between now an the count down date
 							    var distance = countDownDate - now;
-							    
 							    // Time calculations for days, hours, minutes and seconds
 							    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 							    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 							    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 							    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-							    
 							    // Output the result in an element with id="demo"
 							    document.getElementById("days").innerHTML = days ;
 							    document.getElementById("hours").innerHTML = hours;
 							    document.getElementById("minutes").innerHTML = minutes ;
 							    document.getElementById("seconds").innerHTML = seconds ;
-							    
 							    // If the count down is over, write some text 
 							    if (distance < 0) {
 							        clearInterval(x);
@@ -145,7 +139,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <h3>IVolunteer Mongolia</h3>
 				   <p>iVolunteer Санаачилга нь <b>Сайн дурынхан</b> болон <b>Байгууллага <i>(ТББ болон бусад)</i>, нийгэмд тустай төсөл хөтөлбөрүүд</b>>ийг холбох, сайн дурын үйл ажиллагааг олон нийтэд таниулах зорилготой Монголын анхдагч платформ юм.</p>
 				 </div>
-				 
             </div>
 		 </div>
 		<!-- end content-top -->

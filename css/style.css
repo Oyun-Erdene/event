@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 .clear{clear: both;}
 html, body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;;
 	background: #F3F3F3;
 	font-size: 100%;
 }
@@ -204,8 +206,8 @@ li.rss a span:hover{
 	background: url(../images/img-sprite.png)no-repeat -176px -207px;
 }
 .menu{
-	padding: 1.5% 0 0.5% 0;
-	background: #72D0F4;
+	padding: 0 0 0 0;
+	background: #006ce8;
 	z-index: 9999;
 	width: 100%;
 	clear: both;
@@ -248,7 +250,6 @@ li.rss a span:hover{
 	text-transform:uppercase;
 	font-weight:400;
 	margin-right: 10px;
-	border:1px solid #72D0F4;
 }
 .nav li {
     position: relative;
@@ -265,7 +266,7 @@ li.rss a span:hover{
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	background:#fff;
-	color:#00BFF0;
+	color: #006ce8;
 }
 .nav > li {
     float: left;
@@ -1298,7 +1299,7 @@ ul.twitter_footer{
 }
 /*--fooer-bottom--*/
 .footer-bottom{
-	background:#72d0f4;
+	background:#2e3137;
 	padding:10% 0;
 }
 h4.m_7 {
@@ -1309,8 +1310,13 @@ h4.m_7 {
 	text-transform:uppercase;
 }
 .copyright{
-	background:#00bff0;
+	background:#24262b;
 	padding:10px 0 2px;
+}
+.copyright a, span{
+    text-decoration:none;
+    color:#fff !important;
+    font-weight:800;
 }
 .copy{
 	float:left;
