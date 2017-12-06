@@ -817,12 +817,12 @@ h4.m_3{
  	background: url(../images/img-sprite.png)-244px -66px no-repeat;
 }
 .desc{
-	padding:10px 0 20px;
-	width:80%;
+	padding: 10px 0 20px;
+	width:95%;
 }
 .desc h3{
 	text-align:center;
-	line-height:20px;
+	line-height:15px;
 	color:#00BFF0;
 	font-size:1em;
 	font-weight:600;
@@ -889,7 +889,7 @@ i.like1{
 	float:right;
 }
 .events{
-	background:#a5e5fe;
+	background:#DCDCF4; /*#a5e5fe*/
 	padding:5%;
 }
 ul.event1{
@@ -909,13 +909,13 @@ ul.event1_text{
 }
 .event1 h4{
 	font-size:0.85em;
-	color:#fff;
+	color:#3F68CF;
 	text-transform:uppercase;
 	font-weight:bold;
 	margin-bottom: 5px;
 }
 span.m_5{
-	color:#ff0000;
+	color:#3F68CF !important; /*#ff0000*/
 	font-size:0.8125em;
 	font-weight:bold;
 }
@@ -939,9 +939,9 @@ ul.event1_text p{
 }
 .btn2 a {
 	background: none;
-	font-size: 0.8125em;
+	font-size: 0.8120em;
 	padding: 3px 10px;
-	color: #F00;
+	color: #00BFF0; /*#F00*/
 	cursor: pointer;
 	outline: none;
 	-webkit-appearance: none;
@@ -952,16 +952,16 @@ ul.event1_text p{
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-o-border-radius: 2px;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 .btn2 a:hover {
-	color:#00BFF0;
+	color:#FFF; /*#00BFF0*/
 	text-decoration: none;
 }
 .blog_events{
-	background:#d4d6d6;
+	background:#FFF; /*#d4d6d6*/
 	padding:5%;
 }
 .tab-left1 {
@@ -989,9 +989,11 @@ span.tab1-img img{
 	width:70.5%;
 }
 .tab-text1 p a{
-	color: #fff;
-	font-size: 0.8125em;
-	line-height: 1.5em;
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #00BFF0; /*#FFF*/
+	font-size: 0.8126em;
+	line-height: 0.99em;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -999,14 +1001,14 @@ span.tab1-img img{
 	transition: all 0.3s ease-out;
 }
 .tab-text1 p a:hover{
-	color: #00BFF0;
+	color: #3F68CF; /*#00BFF0*/
 	text-decoration: none;
 }	
 .tab-text1 p {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 span.m_date{
-	color:#555;
+	color:#3F68CF !important; /*555*/
 	font-size:0.85em;
 }
 /*--gallery--*/
@@ -3616,7 +3618,8 @@ ul.twitter_footer li p {
 	margin:0;
 }
 .tab-text1 p {
-	line-height: 0;
+	line-height: 3;
+	margin-top: 0;
 }
 .event1 h4 {
 	font-size: 0.8125em;
